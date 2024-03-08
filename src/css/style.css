@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100..1000&display=swap');
 
-body{
+body {
     font-family: "DM Sans", sans-serif;
     font-size: 16px;
 }
 
-.container{
+.container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -13,12 +13,12 @@ body{
     background-color: hsl(27, 66%, 92%);
 }
 
-.cards{
+.cards {
     display: flex;
     flex-direction: column;
 }
 
-.balance-card{
+.balance-card {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -28,18 +28,18 @@ body{
     margin-bottom: 20px;
 }
 
-.balance-card .title{
+.balance-card .title {
     color: hsl(33, 100%, 98%);
     margin-bottom: 10px;
 }
 
-.balance-card .balance{
+.balance-card .balance {
     color: hsl(33, 100%, 98%);
     font-size: 32px;
     font-weight: 700;
 }
 
-.spendings{
+.spendings {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -47,32 +47,33 @@ body{
     background-color: hsl(33, 100%, 98%);
     padding: 30px;
     border-radius: 20px;
-    width: 500px;
+    width: 550px;
+    height: 450px;
 }
 
-.spendings h2{
+.spendings h2 {
     color: hsl(25, 47%, 15%);
     font-size: 32px;
     margin-bottom: 20px;
 }
 
-.bars{
+.bars {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    width: 100%;
     margin-bottom: 20px;
-    height: 220px;
+    height: 210px;
+    width: 100%;
 }
 
-.bars ul{
+.bars ul {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
 }
 
-.bars .value{
+.bars .value {
     background-color: hsl(25, 47%, 15%);
     color: hsl(33, 100%, 98%);
     padding: 5px;
@@ -80,95 +81,96 @@ body{
     margin-bottom: 5px;
 }
 
-.bar{
+.bar {
     background-color: hsl(10, 79%, 65%);
     border-radius: 5px;
     width: 50px;
     margin-bottom: 5px;
     cursor: pointer;
     transition: 0.3s ease-in-out;
+    margin: 10px;
 }
 
-.bar.active{
+.bar.active {
     background-color: hsl(186, 34%, 60%);
 }
 
-.bar:hover{
+.bar:hover {
     opacity: 70%;
 }
 
-.monday{
-    height: 50px;
-}
-
-.tuesday{
-    height: 100px;
-}
-
-.wednesday{
-    height: 150px;
-}
-
-.thursday{
-    height: 110px;
-}
-
-.friday{
-    height: 70px;
-}
-
-.saturday{
-    height: 130px;
-}
-
-.sunday{
-    height: 80px;
-}
-
-.weekday{
+.weekday {
     color: hsl(28, 10%, 53%);
 }
 
-hr{
+hr {
     border: 1px solid hsl(27, 66%, 92%);
     width: 100%;
     margin-bottom: 20px;
 }
 
-.monthly-expenses{
+.monthly-expenses {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
 }
 
-.this-month{
+.this-month {
     color: hsl(28, 10%, 53%);
 }
 
-.this-month li:last-child{
+.this-month li:last-child {
     font-size: 40px;
     font-weight: 700;
     color: hsl(25, 47%, 15%);
 }
 
-.last-month{
+.last-month {
     display: flex;
     flex-direction: column;
     align-self: flex-end;
     align-items: flex-end;
 }
 
-.last-month li{
+.last-month li {
     color: hsl(25, 47%, 15%);
     font-weight: 700;
 }
 
-.last-month li:last-child{
+.last-month li:last-child {
     font-weight: 400;
     color: hsl(28, 10%, 53%);
 }
 
-.none{
+.none {
     display: none;
+}
+
+.monday {
+    height: 50px;
+}
+
+.tuesday {
+    height: 100px;
+}
+
+.wednesday {
+    height: 150px;
+}
+
+.thursday {
+    height: 110px;
+}
+
+.friday {
+    height: 70px;
+}
+
+.saturday {
+    height: 130px;
+}
+
+.sunday {
+    height: 80px;
 }
