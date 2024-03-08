@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100..1000&display=swap');
+
+body{
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(27, 66%, 92%);
+}
+
+.cards{
+    display: flex;
+    flex-direction: column;
+}
+
+.balance-card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: hsl(10, 79%, 65%);
+    padding: 25px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.balance-card .title{
+    color: hsl(33, 100%, 98%);
+    margin-bottom: 10px;
+}
+
+.balance-card .balance{
+    color: hsl(33, 100%, 98%);
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.spendings{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: hsl(33, 100%, 98%);
+    padding: 30px;
+    border-radius: 20px;
+    width: 550px;
+}
+
+.spendings h2{
+    color: hsl(25, 47%, 15%);
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.bars{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 100%;
+    margin-bottom: 20px;
+    height: 220px;
+}
+
+.bars ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bars .value{
+    background-color: hsl(25, 47%, 15%);
+    color: hsl(33, 100%, 98%);
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.bar{
+    background-color: hsl(10, 79%, 65%);
+    border-radius: 5px;
+    width: 50px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.monday{
+    height: 50px;
+}
+
+.tuesday{
+    height: 100px;
+}
+
+.wednesday{
+    height: 150px;
+}
+
+.thursday{
+    height: 110px;
+}
+
+.friday{
+    height: 70px;
+}
+
+.saturday{
+    height: 130px;
+}
+
+.sunday{
+    height: 80px;
+}
+
+.weekday{
+    color: hsl(28, 10%, 53%);
+}
+
+hr{
+    border: 1px solid hsl(27, 66%, 92%);
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.monthly-expenses{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.this-month{
+    color: hsl(28, 10%, 53%);
+}
+
+.this-month li:last-child{
+    font-size: 40px;
+    font-weight: 700;
+    color: hsl(25, 47%, 15%);
+}
+
+.last-month{
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    align-items: flex-end;
+}
+
+.last-month li{
+    color: hsl(25, 47%, 15%);
+    font-weight: 700;
+}
+
+.last-month li:last-child{
+    font-weight: 400;
+    color: hsl(28, 10%, 53%);
+}
+
+.none{
+    display: none;
+}
