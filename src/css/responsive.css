@@ -1,0 +1,33 @@
+@media(max-width:425px){
+    .balance-card, .spendings{
+        width: 300px;
+    }
+
+    .spendings{
+        padding: 20px 10px;
+        height: 400px;
+    }
+
+    .spendings h2{
+        font-size: 21px;
+        margin-bottom: 10px;
+    }
+
+    .bars .value {
+        font-size: 10px;
+        padding: 5px 3px;
+    }
+
+    .bar{
+        width: 30px;
+        margin: 5px;
+    }
+
+    .this-month, .last-month li {
+        font-size: 14px;
+    }
+
+    .this-month li:last-child {
+        font-size: 30px;
+    }
+}
